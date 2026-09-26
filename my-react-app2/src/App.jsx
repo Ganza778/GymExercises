@@ -1,7 +1,14 @@
-import List from "./List.jsx"
+// import MyComponent from "./MyComponent";
+import Counter from "./Counter";
 
 function App() {
-	return (<List />);
+	return (
+		<>
+			{/* <MyComponent /> */}
+			<Counter />
+		</>
+
+	);
 }
 
 export default App
